@@ -1,0 +1,155 @@
+@import url('fonts.css');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#principal{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+[class^="titulo-"], [class*=" titulo-"] {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+
+#destaque{
+	background-image: url('../imagens/destaque.jpg');
+	height: 450px;
+}
+
+#destaque .grupo{
+	padding-top: 125px;
+	padding-left: 250px;
+}
+#destaque h1{
+	font-family: 'Pacifico';
+	display: inline-block;
+	color:#fff;
+	font-size: 35px
+}
+
+#destaque span{
+	font-family: 'Pacifico';
+	color:#2ecc71;
+	font-size: 35px	
+}
+
+#destaque p{
+	padding-top: 30px;
+	max-width: 340px;
+	color:#fff;
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+#destaque ul{
+	list-style: none;
+	padding-top: 25px;
+}
+
+#destaque li{
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px;
+	margin-right: 8px;
+	border-radius: 50%;
+	color:#f9f9f9;
+	background-color: #38241a;
+	opacity: 0.6;
+	
+}
+
+#destaque li:hover{
+	color:#fff;
+	background-color: #2ecc71;
+	opacity: 1;
+	cursor: pointer;
+}
+
+#caracteristicas ul{
+	list-style: none;
+	text-align: center;
+}
+
+#caracteristicas ul li{
+	display: inline-block;
+	max-width: 260px;
+	padding-top: 50px;
+	text-align: center;
+	margin-right: 55px;
+}
+
+#caracteristicas ul li span{
+	font-size: 30px;
+	border-radius: 50%;
+	padding: 20px;
+	background-color: #2ecc71;
+	color: #fff;
+}
+
+#caracteristicas ul li h2{
+	display: block;
+	font-size: 22px;
+	padding-top: 25px;
+}
+
+#caracteristicas ul li p{
+	padding-top: 25px;
+	font-size: 16px;
+	color: #848484;
+	font-family: 'HelveticaNeue';
+}
+
+#notifique-me{
+	margin-top: 45px;
+	padding: 45px 0;
+	background-color: #e3e3e3;
+	overflow: hidden;
+	text-align: center;
+}
+
+#notifique-me div{
+	width: 590px;
+}
+
+#notifique-me div.inscrever-se{ display: inline-block;	}
+#notifique-me div.video{float: right;}
+
+#notifique-me .inscrever-se h2{
+	font-weight: bold;
+	font-size: 19px;
+} 
+
+#notifique-me .inscrever-se p{
+	color: #848484;
+	padding-top: 25px;
+	font-size: 16px;
+	margin-left: 176px;
+	text-align: left;
+} 
+
+#notifique-me .inscrever-se .email{
+	margin-top: 25px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 35px;
+	width: 230px;
+	margin-left: 100px;
+	border: 1px solid #c8c8c8;
+}
+
+#notifique-me .inscrever-se .btn-send-email{
+	height: 37px;
+	width: 100px;
+	background-color: #2ecc71;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	margin-left: -7px;
+	border: none;
+}
