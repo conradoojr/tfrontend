@@ -153,3 +153,84 @@
 	margin-left: -7px;
 	border: none;
 }
+
+#quem-usa{
+	text-align: center;
+}
+
+#quem-usa p{
+	color: #848484;
+	font-size: 16px;
+	width: 620px;
+	margin-left: 27%;
+}
+#quem-usa p.comentario{
+	padding-top: 25px;
+	margin-left: 2 li7%;
+	padding-bottom: 20px;
+}
+
+#quem-usa h3{
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+
+#quem-usa ul{
+	list-style: none;
+	padding-bottom: 45px;
+}
+
+#quem-usa ul li{
+	display: inline-block;
+}
+
+#quem-usa ul li img{
+	width: 40px;
+	height: 40px;
+}
+
+#quem-usa h4{
+	padding-bottom: 20px;
+}
+
+#quem-usa p.chamada{
+	padding-bottom: 20px;
+}
+
+#quem-usa ul.redes-sociais li{
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px;
+	margin-right: 8px;
+	border-radius: 50%;
+	color:#f9f9f9;
+	background-color: #38241a;
+	opacity: 0.6;
+	
+}
+
+#quem-usa ul.redes-sociais li:hover{
+	color:#fff;
+	background-color: #2ecc71;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.footer{
+	background-color: #e3e3e3;	
+	text-align: center;
+}
+
+.footer ul{ 
+	list-style: none;
+	padding: 45px 0px;
+}
+.footer ul li{ 
+	display: inline-block; 
+	margin-right: 30px;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: #848484;
+	font-size: 15px;
+} 
