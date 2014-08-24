@@ -114,7 +114,10 @@
 	width: 590px;
 }
 
-#notifique-me div.inscrever-se{ display: inline-block;	}
+#notifique-me div.inscrever-se{ 
+	float: left;
+	display: inline-block;	
+}
 #notifique-me div.video{float: right;}
 
 #notifique-me .inscrever-se h2{
